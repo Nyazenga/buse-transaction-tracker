@@ -143,18 +143,18 @@ Would you like me to update the entire README file with this change?
 
 
 
-6. Default Login Credentials
-After setting up the database and importing the SQL dump, you can use these default credentials for testing:
-```bash
-Username: test
-Password: password
+6. Default Login Credentials for Mobile Application
+   After setting up the database and importing the SQL dump, you can use these default credentials for testing:
+   ```bash
+   Username: test
+   Password: password
 
-OR 
+   OR 
 
-Username: admin
-Password: 12345678
+   Username: admin
+   Password: 12345678
 
-```
+   ```
 
 ## Project Structure
 
