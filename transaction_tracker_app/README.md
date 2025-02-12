@@ -141,6 +141,21 @@ Would you like me to update the entire README file with this change?
    flutter run
    ```
 
+
+
+6. Default Login Credentials
+After setting up the database and importing the SQL dump, you can use these default credentials for testing:
+```bash
+Username: test
+Password: password
+
+OR 
+
+Username: admin
+Password: 12345678
+
+```
+
 ## Project Structure
 
 ### Frontend (`transaction_tracker_app`)
