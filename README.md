@@ -22,7 +22,7 @@ Key challenges included implementing secure user authentication and maintaining 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Nyazenga/buse-transaction-tracker.git
+git clone https://github.com/nyazengam/buse-transaction-tracker.git
 cd buse-transaction-tracker
 ```
 
@@ -113,6 +113,28 @@ To create a new user, you can use the following steps:
    org.gradle.parallel=true
    ```
    **Note**: If you're using a different version of Java, make sure to update the `org.gradle.java.home` path accordingly.
+Here's the updated Network Configuration section:
+
+4. **Network Configuration**:
+   Update the `baseUrl` in the following files to match your computer's IP address:
+   ```dart
+   // In transaction_tracker_app/lib/services/api_services.dart
+   // AND
+   // In transaction_tracker_app/lib/services/auth_services.dart
+   static const String baseUrl = 'http://YOUR_COMPUTER_IP:3000';
+   ```
+   
+   For the best connection:
+   - Enable your computer's hotspot
+   - Connect your mobile device to this hotspot
+   - To get your computer's IP address:
+     1. Open Command Prompt (cmd)
+     2. Type `ipconfig` and press Enter
+     3. Look for "IPv4 Address" under your active network adapter
+   - Replace `YOUR_COMPUTER_IP` with your computer's actual IP address from the ipconfig command
+   - Ensure both devices are on the same network
+
+Would you like me to update the entire README file with this change?
 
 5. Run the application:
    ```bash
