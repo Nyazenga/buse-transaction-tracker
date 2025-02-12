@@ -64,10 +64,10 @@ To create a new user, you can use the following steps:
    npm install
    ```
 
-3. Create a `.env` file in the backend directory:
+3. Rename env-example file to .env or Create a `.env` file in the backend directory. Feel free to change the JWT_SECRET:
    ```
    PORT=3000
-   JWT_SECRET=your_secret_key_here
+   JWT_SECRET=hoisjojdoijsihfihi27836290932ui093uie9uy87y3he
    DB_HOST=localhost
    DB_USER=root
    DB_PASSWORD=
