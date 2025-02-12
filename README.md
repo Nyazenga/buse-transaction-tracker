@@ -22,7 +22,7 @@ Key challenges included implementing secure user authentication and maintaining 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/nyazengam/buse-transaction-tracker.git
+git clone https://github.com/Nyazenga/buse-transaction-tracker.git
 cd buse-transaction-tracker
 ```
 
